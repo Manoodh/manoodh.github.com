@@ -8,7 +8,7 @@ header {
 		;
 }
 nav {
-	text-align:center;
+		text-align:center;
 }
 nav a {
 		color: red;
@@ -35,12 +35,16 @@ section {
 		margin-bottom: 5px;
 		color:white;
 }
-table {
-		table: 1px white;
+#intro {
+		text-align:center;
 }
-.copyight {
-	color:white;
-	text-align:left;
-	padding-bottom:10px;
-	font-size:8pt;
+table th tr td {
+		table-border: 1px solid white;
+		margin:10px;
+}
+footer {
+		color:white;
+		text-align:left;
+		padding-bottom:10px;
+		font-size:8pt;
 }
