@@ -45,10 +45,13 @@ section {
     padding: 15px;
     margin-bottom: 5px;
     color:white;
+	background-image: -webkit-linear-gradient(to right,#2B5876,#4E4376,#7B68EE);
+	background-image: -moz-linear-gradient(to right,#2B5876,#4E4376,#7B68EE);
+	background-image: -ms-linear-gradient(to right,#2B5876,#4E4376,#7B68EE);
     background-image: linear-gradient(to right,#2B5876,#4E4376,#7B68EE);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -57,7 +60,7 @@ section {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
